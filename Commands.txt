@@ -1,0 +1,57 @@
+https://www.syncfusion.com/blogs/post/how-to-build-crud-rest-apis-with-asp-net-core-3-1-and-entity-framework-core-create-jwt-tokens-and-secure-apis.aspx
+
+Install-Package System.IdentityModel.Tokens.Jwt -Version 5.6.0
+
+Scaffold-DbContext “Server=NS-55\SQLEXPRESS;Database=DotNetCore;Integrated Security=True” Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+generate service 
+ng generate service service\employee\employee --dry-run
+-dryrun is using for check folder
+
+change port number 
+- ng serve -o --port 4300
+
+
+validation
+https://jasonwatmore.com/post/2019/06/15/angular-8-template-driven-forms-validation-example
+https://www.youtube.com/watch?v=tAqHBq9kuPI
+
+toastr 
+https://blog.jscrambler.com/how-to-create-angular-toastr-notifications/
+https://www.npmjs.com/package/ngx-toastr
+https://valor-software.com/ngx-bootstrap/#/alerts
+
+Angular set up
+https://cli.angular.io/
+https://angular.io/cli/generate#options
+
+RESOLVED CORS 
+https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-3.1
+https://code-maze.com/enabling-cors-in-asp-net-core/
+
+Data fatching 
+https://www.techiediaries.com/angular/angular-httpclient-9-8-service-api-calls-and-fetching-data/
+https://www.itsolutionstuff.com/post/angular-http-post-request-exampleexample.html
+
+Set headers for authentication 
+https://www.djamware.com/post/5d8d7fc10daa6c77eed3b2f2/angular-8-tutorial-rest-api-and-httpclient-examples
+
+Angular template link
+https://stackblitz.com/edit/angular-8-registration-login-example?file=app%2Fapp.component.html
+https://www.positronx.io/create-login-ui-template-with-angular-8-material-design/
+https://jsonworld.com/demo/angular-8-user-registration-login-example-and-tutorial
+https://jasonwatmore.com/post/2019/06/10/angular-8-user-registration-and-login-example-tutorial
+https://angular.io/tutorial
+
+theme template
+https://github.com/coreui/coreui-free-angular-admin-template/
+https://coreui.io/angular/#c-compare
+
+******************************* https://giftfest.ro/autentificare **************************
+
+
+directives 
+https://www.youtube.com/watch?v=nWst87nQmZQ
+https://www.youtube.com/watch?v=75XFBIKLPQY
+https://www.youtube.com/watch?v=WQZq07ecohk
